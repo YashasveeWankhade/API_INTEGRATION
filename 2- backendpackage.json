@@ -1,0 +1,13 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^1.4.0", // Axios for making HTTP requests
+    "express": "^4.18.2", // Express framework for the server
+    "memory-cache": "^0.2.0" // Memory cache for storing responses
+  },
+  "scripts": {
+    "start": "node server.js" // Command to start the backend server
+  }
+}
