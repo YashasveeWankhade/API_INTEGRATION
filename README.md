@@ -12,22 +12,24 @@ This project integrates the News API to fetch and display real-time news headlin
    cd frontend
 
 
-#Install dependencies:
+2. Install dependencies:
 npm install
 
 
-Start the development server:
+3. Start the development server:
 npm start
 
 
 # Backend Setup (Optional)
 
-Navigate to the backend directory:
+1. Navigate to the backend directory:
 cd backend
 
-Install dependencies:
+2. Install dependencies:
 npm install
 
-
+# Instructions
+The frontend application communicates with the backend API for fetching news headlines.
+If not using the backend, modify NewsHeadlines.js to directly call the News API.
 Start the backend server:
 node server.js
