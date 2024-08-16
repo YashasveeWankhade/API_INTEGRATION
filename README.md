@@ -33,3 +33,17 @@ The frontend application communicates with the backend API for fetching news hea
 If not using the backend, modify NewsHeadlines.js to directly call the News API.
 Start the backend server:
 node server.js
+
+# Instructions
+The frontend application communicates with the backend API for fetching news headlines.
+If not using the backend, modify NewsHeadlines.js to directly call the News API.
+
+# Dependencies
+1. Frontend:
+React
+Axios
+
+2. Backend:
+Express
+Axios
+Memory-cache
